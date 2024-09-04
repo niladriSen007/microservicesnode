@@ -1,0 +1,24 @@
+{
+  "pieces.cloudCapabilities": "Blended",
+  "pieces.telemetry": true,
+  "workbench.colorCustomizations": {
+    "activityBar.activeBackground": "#7d0367",
+    "activityBar.background": "#7d0367",
+    "activityBar.foreground": "#e7e7e7",
+    "activityBar.inactiveForeground": "#e7e7e799",
+    "activityBarBadge.background": "#000000",
+    "activityBarBadge.foreground": "#e7e7e7",
+    "commandCenter.border": "#e7e7e799",
+    "sash.hoverBorder": "#7d0367",
+    "statusBar.background": "#4b023e",
+    "statusBar.foreground": "#e7e7e7",
+    "statusBarItem.hoverBackground": "#7d0367",
+    "statusBarItem.remoteBackground": "#4b023e",
+    "statusBarItem.remoteForeground": "#e7e7e7",
+    "titleBar.activeBackground": "#4b023e",
+    "titleBar.activeForeground": "#e7e7e7",
+    "titleBar.inactiveBackground": "#4b023e99",
+    "titleBar.inactiveForeground": "#e7e7e799"
+  },
+  "peacock.color": "#4b023e"
+}
