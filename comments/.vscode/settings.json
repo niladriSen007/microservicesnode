@@ -20,5 +20,8 @@
     "titleBar.inactiveBackground": "#4b023e99",
     "titleBar.inactiveForeground": "#e7e7e799"
   },
-  "peacock.color": "#4b023e"
+  "peacock.color": "#4b023e",
+  "cSpell.words": [
+    "waitlist"
+  ]
 }
