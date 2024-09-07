@@ -1,23 +1,18 @@
 import express from "express"
 const router = express.Router()
-/* [
-  {
-    postId:"1",
-    comments:[
-      {
-        id:"1",
-        content:"sdscscsc"
-      }
-    ]
-  }
-] */
 
 const commentsByPostIdArray = []
 
+
 router.get("/:postId/comments", (req, res) => {
   const { postId } = req.params
-  const comments = commentsByPostIdArray?.find((post) => post?.postId == postId)
-  res.status(200).json({ comments })
+  console.log(postId,"postId")
+
+  const comments = commentsByPostIdArray?.filter((post) => post?.postId == postId)
+
+    console.log(comments,"cmnt")
+    res.status(200).json({ comments })
+  
 })
 
 router.post("/:postId/comments", (req, res) => {
@@ -43,9 +38,11 @@ router.post("/:postId/comments", (req, res) => {
     commentsForSpecificPost[0]?.comments?.push(comment)
   }
 
-  console.log(commentsByPostIdArray)
+  console.log(commentsByPostIdArray,"xxx")
 
   res.status(201).json({ commentsArray: commentsByPostIdArray })
+
+
 })
 
 export default router
